@@ -789,7 +789,7 @@ spec:
         - env:
             - name: REGISTRY_AUTH_ANONYMOUS_READ_ACCESS_ENABLED
               value: "true"
-          image: apicurio/apicurio-registry-mem:2.2.0.Final
+          image: quay.io/dogren/apicurio-registry-mem:2.2.0.Final
           livenessProbe:
             failureThreshold: 3
             httpGet:
